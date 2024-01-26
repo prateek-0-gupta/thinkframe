@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- I have forked this from my previous project  so if you see any extra files just delete'em
+may need some changes
+ -->
+	<head>
+		<meta charset="utf-8">
+		<title>ThinkFrame: A SOCIAL NETWORK</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Joti+One|Kavivanar|Quicksand|Sedgwick+Ave+Display" rel="stylesheet">
+
+	</head>
+	<body>
+		<section class="cover text-left">
+			<canvas id="canvas-basic"></canvas>
+
+			<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+				<div class="container">
+					<a class="navbar-brand" href="#">ThinkFrame</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbarSupportedContent">
+						<ul class="navbar-nav mt-2 mt-md-0">
+							<li class="nav-item active">
+								<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./aboutus.html">About us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./contactus.html">Join Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./roadmap.html">Road Map</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="cover-container">
+				<div class="cover-inner container"  id="large-header" class="large-header">
+						<div class="row justify-center">
+							<canvas id="demo-canvas">
+									
+							</canvas>
+						<div class="col-lg-12 text-lg-left ">
+							
+							
+							<h1 class="jumbotron-heading text-lg-left bias ">
+								And sky is the limit
+							</h1>
+                            
+							
+								
+									<!--<p class="lead">
+									we can do this
+									</p>
+							<p>
+									<a href="#" class="btn btn-outline-primary btn-white btn-lg mb-2 mr-2 ml-2 pill-btn">Join Now</a>
+									<a href="#" class="btn link-white mb-2 ml-2 ml-2 pill-btn">Find out more</a>
+								</p>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+        <section class="roadmap row justify-center" id="roadmap">
+            <div class="transition-gradient-after adjust-top"></div>
+            <div class="container">
+                <div class="dots-vert"></div>
+                <div class="section-heading text-center">
+                    <h2 i18n="ROADMAP">ROADMAP</h2>
+                    <h3 i18n="CHECK THE PROJECT MILESTONES">CHECK THE PROJECT MILESTONES</h3>
+                    <hr width="100px"></hr>
+                </div>
+                <div class="row clearfixjustify-center">
+                    <div class="col-lg-12">
+                        <div class="container-fluid">
+                            <div class="row clearfix left">
+                                <div class="col-lg-4 box left first reveal">
+                                    <div class="dots pull-right">
+                                        <!-- <span class="year">2018</span> -->
+                                    </div>
+                                    <br />
+                                    <span class="heading green">PHASE 1</span>
+                                    <br />
+                                    <div class="milestones vertical-line right">
+                                        <span class="text-right">CoralCoin launch</span><br />
+                                       <span class="text-right">PoW starts</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="lines first">
+                                        <div class="roadmap-line active"></div>
+                                        <div class="roadmap-line"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 box right first reveal">
+                                    <div class="dots pull-left">
+                                        <!-- <span class="year">2018</span> -->
+                                    </div>
+                                    <br>
+                                    <span class="heading green">PHASE 2</span>
+                                    <br />
+                                    <div class="milestones vertical-line left">
+                                        <span class="text-right">Some event</span><br />
+                                        <span class="text-right">Some event</span>
+          
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix left">
+                                <div class="col-lg-4 box left second reveal">
+                                    <div class="dots pull-right">
+                                        <!-- <span class="year">2018</span> -->
+                                    </div>
+                                    <br>
+                                    <span class="heading green">PHASE 3</span>
+                                    <br />
+                                    <div class="milestones vertical-line right">
+                                        <span class="text-right">Some event 1Partnerships</span><br />
+                                        <span class="text-right">Some event 2</span><br />
+                                        <span class="text-right">Some event 3</span><br>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="lines second">
+                                        <div class="roadmap-line"></div>
+                                        <div class="roadmap-line"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 box right second reveal">
+                                    <div class="dots pull-left">
+                                        <!-- <span class="year">2018</span> -->
+                                    </div>
+                                    <br>
+                                    <span class="heading green">PHASE 4</span>
+                                    <br />
+                                    <div class="milestones vertical-line left">
+                                        <span class="text-right">Some event 1</span><br>
+                                        <span class="text-right">Some event 2</span><br>
+                                        <span class="text-right">Some event 3</span><br>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix left">
+                                <div class="col-lg-4 box left third reveal">
+                                    <div class="dots pull-right">
+                                        <!-- <span class="year">2019</span> -->
+                                    </div>
+                                    <br>
+                                    <span class="heading green">PHASE 5</span>
+                                    <br />
+                                    <div class="milestones vertical-line right">
+                                        <span class="text-right">Some event 1</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="lines third">
+                                        <div class="roadmap-line"></div>
+                                        <div class="roadmap-line"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 box right third reveal" style="background-color:rgb(224, 226, 231)">
+                                    <div class="dots pull-left">
+                                        <!-- <span class="year">2019</span> -->
+                                    </div>
+                                    <br>
+                                    <span class="heading green">PHASE 6</span>
+                                    <br />
+                                    <div class="milestones vertical-line left">
+                                        <span class="text-right">To be revealed</span><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix left">
+                                <div class="col-lg-4 box left fourth reveal" style="background-color:rgb(224, 226, 231)">
+                                    <div class="dots pull-right">
+                                        <!-- <span class="year">2019</span> -->
+                                    </div>
+                                    <br>
+                                    <span class="heading green">PHASE 7</span>
+                                    <br />
+                                    <div class="milestones vertical-line right">
+                                        <span class="text-right">To be revealed</span><br>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="lines fourth">
+                                        <div class="roadmap-line"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <img src="img/auctus-wm.png" class="auctus-wm"></div>  -->
+          </section>
+		
+		<section class="contact">
+			<div class="container">
+				<div class="row contact-details">
+					<div class="col-sm-8 m-auto text-center">
+						<h2>Join Us</h2>
+						<p class="lead constrain-width mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At aliquam rhoncus donec magna turpis, dictum sit amet tellus at, commodo elementum sapien.</p>
+						<div class="divider"></div>
+						<h4>You are not alone</h4>
+						<form class="contact-form mt-4">
+							<div class="row">
+								<div class="col-md-6">
+									<input type="text" class="form-control-custom mb-4" placeholder="Name" value="Your name">
+								</div>
+								<div class="col-md-6">
+									<input type="text" class="form-control-custom mb-4" placeholder="Email address" value="Email address">
+								</div>
+								<br />
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<textarea class="form-control-custom mb-4" rows="3">Your Skills (Here i am thinking about puting multiple text boxes so a person can fill up or a add button to add skills/intrests)</textarea><br />
+									<button type="submit" class="btn btn-primary btn-lg mb-4">Send Message</button>
+								</div> 
+							</div>
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 text-center text-md-left">
+						<a class="logo" href="#">Need some changes here</a>
+					</div>
+					<div class="col-md-8">
+						<ul class="nav-footer mt-2 mt-md-0 ">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Joins Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Road Map</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Just some spices -->
+		<script src="assets/js/granim.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+		<!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+		<script>
+		var granimInstance = new Granim({
+		    element: '#canvas-basic',
+		    name: 'basic-gradient',
+		    direction: 'diagonal', // 'diagonal', 'top-bottom', 'radial'
+		    opacity: [1, 1],
+		    isPausedWhenNotInView: true,
+		    states : {
+		        "default-state": {
+		            gradients: [
+		                ['#161516', '#161516'],
+		                ['#161516', '#5B2774'],
+		                ['#5B2774', '#161516']
+		            ]
+		        }
+		    }
+		});
+
+        window.sr = ScrollReveal();
+sr.reveal('.reveal', { duration: 1000 });
+		</script>
+	</body>
+</html>
